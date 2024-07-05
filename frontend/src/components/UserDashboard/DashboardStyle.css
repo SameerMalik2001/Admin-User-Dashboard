@@ -1,0 +1,145 @@
+.dashboard_container  {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+/* ---------------leftPartDashboard--------------- */
+
+.optionsOfAdmin {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  gap: 30px;
+  background-color: rgb(166, 166, 166);
+  font-size: 20px;
+  align-items: center;
+}
+
+.optionsOfAdmin p:first-child {
+  margin-left: 100px;
+}
+
+.optionsOfAdmin p {
+  cursor: pointer;
+}
+
+/* ---------------------add user----------------------------------- */
+
+.rest {
+  width:  100%;
+  height: calc(100% - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addUser_container {
+  width: 300px;
+  font-size: 20px;
+  min-height: 300px;
+  max-height: max-content;
+  background-color: #c3c3c3;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.box_password h1:first-child {
+  text-align: center;
+}
+
+.msg {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.changeBtn {
+  font-size: 22px;
+  background-color: rgb(118, 196, 0);
+  margin-top: 20px;
+}
+
+.changeBtn:hover {
+  background-color: rgb(118, 196, 0);
+}
+
+
+/* ---------------------- user list ----------------*/
+
+.userListContainer {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+.userListContainer table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures that table borders are collapsed into a single border */
+}
+
+.userListContainer th,
+.userListContainer td {
+  border: 1px solid #000; /* Adds a 1px solid black border to table cells */
+  padding: 5px;
+}
+
+.userListContainer th {
+  background-color: #f2f2f2; /* Adds a light background color to header cells */
+}
+
+.delete {
+  background-color: white;
+  color: rgb(255, 0, 0);
+}
+
+.edit {
+  background-color: white;
+  color: rgb(60, 0, 255);
+}
+
+.edit:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.delete:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+/* ---------------indexContainer------------------*/
+
+.indexContainer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexBtn {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.indexBtn:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.searchInput {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
